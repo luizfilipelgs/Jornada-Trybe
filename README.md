@@ -1,4 +1,4 @@
-# Trybe 
+# Trybe 'U+1F680'
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Luiz Filipe de Lima Gomes Santos](https://www.linkedin.com/in/luizfilipelgs/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
