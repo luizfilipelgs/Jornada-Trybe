@@ -1,0 +1,20 @@
+h1 {
+    font-size: 65px; 
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    }
+    
+    p{
+      font-weight: 600;
+     font-size: 1em;
+    }
+
+    body{
+    font-size: 16px;
+    }
+.preto {background-color:black; color: white;}
+.cinza {background-color:gray ; color: white;}
+.azul {background-color: blue;color: white;}
