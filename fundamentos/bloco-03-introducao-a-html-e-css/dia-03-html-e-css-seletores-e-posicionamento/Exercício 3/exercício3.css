@@ -1,0 +1,15 @@
+h1, h2,p { 
+    text-align: center;
+}
+li:hover {
+    background-color: grey;
+    transition: 500ms;
+}
+li:active {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    border: 5px solid red;
+}
+div h3 Cor_primária
