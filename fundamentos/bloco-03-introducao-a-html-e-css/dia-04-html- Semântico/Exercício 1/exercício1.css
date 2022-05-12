@@ -29,3 +29,22 @@ h1 {
   h3 {
     text-align: center;
   }
+  .first {
+    display: block;
+    margin-left: 200px
+  
+  }
+
+  .second {
+    display: block;
+    margin-left: 280px
+    
+  }
+  .third{
+    display: block;
+    margin-left: 600px
+  }
+  li {
+    display: inline-block;
+      
+  }
