@@ -68,7 +68,42 @@ for (let arr of array1a25) {
 
 
 
+for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if (numbers[index] < numbers[secondIndex]) {
+        let position = numbers[index];
+        numbers[index] = numbers[secondIndex];
+        numbers[secondIndex] = position;
+        console.log("ordenando menor para maior: "+numbers);
+      }
+    }
+  }
+console.log("-----------------------------------------------------------");
+  
+for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+      if ( numbers[secondIndex] < numbers[index]) {
+        let position = numbers[index];
+        numbers[index] = numbers[secondIndex];
+        numbers[secondIndex] = position;
+        console.log("ordenando maior para menor: "+numbers);
+      }
+    }
+  }
 
+  
+  let arreyMult = [];
+  numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+  
+  for (let i = 0; i < numbers.length; i += 1) {
+    if (i + 1 < numbers.length) {
+      arreyMult.push(numbers[i] * numbers[i + 1]);
+    } else {
+      arreyMult.push(numbers[i] * 2);
+    }
+  }
+  
+  console.log("arrey multiplicada = " + arreyMult);
 
 
 
@@ -91,3 +126,5 @@ console.log(maiorNum);
 menorNum=Math.min.apply(null,numbers)
 console.log("O menor numero da lista é");
 console.log(menorNum);*/
+
+// -----------------------------------------#VQV-------------------------------------//
