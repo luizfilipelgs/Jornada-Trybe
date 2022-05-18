@@ -14,6 +14,8 @@ function verificaPalindromo (str) {
     
 }
 
-console.log(verificaPalindromo("arara123"));
-console.log(verificaPalindromo("arara"));
+let str = "arara"
+
+console.log(" A palavra " + "'" + str + "'" +  " é um Polindromo ? " + verificaPalindromo(str));
+
 
