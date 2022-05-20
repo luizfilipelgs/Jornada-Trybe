@@ -17,3 +17,8 @@ for (let index = 0; index < h3.length; index++) {
 
 //document.getElementById("footer-container").style.backgroundColor = "black"
 document.querySelector("#footer-container").style.backgroundColor = "black"
+
+let mentoria = document.getElementsByClassName("urgente") 
+let linha9 = document.querySelectorAll(".naoUrgente")
+
+console.log(mentoria.urgente1);
