@@ -1,0 +1,14 @@
+#input-nome{
+    margin: 5px;
+}
+#input-email{
+    margin: 5px;
+}
+.button{
+    margin: 30px 5px;
+}
+#quadro{
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%
+}
