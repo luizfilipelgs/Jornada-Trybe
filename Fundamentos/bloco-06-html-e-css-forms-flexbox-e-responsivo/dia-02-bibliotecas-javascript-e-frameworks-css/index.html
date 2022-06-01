@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header  class="container"><h1>Formulário</h1></header>
+
+    <main>
+        <form class="container-fluid" action="" method="get">
+
+            <section>
+                <label class="form-label" for="input-nome"  MINLENGTH = 10 MAXLENGTH = 30> Nome:</label>
+                <input class="form-control"type="text" name="nome" id="input-nome">
+                
+                <label class="form-label"   for="input-email" MINLENGTH = 10 MAXLENGTH = 30 > Email:</label>
+                <input class="form-control" type="email" name="email" id="input-email">
+            </section>  
+            
+            <section>
+                <p>- Destino Preferido:</p>
+
+                <div class="form-check">
+                    <label class="form-check-label" for="op-1">Cidade</label>
+                    <input class="form-check-input" type="radio" name="opção" id="op-1" value="opção 1"> 
+                </div class="form-check">
+                
+                <div class="form-check">
+                    <label class="form-check-label" for="op-2">Campo</label>
+                    <input class="form-check-input" type="radio" name="opção" id="op-2" value="opção 2"> 
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label" for="op-3">Praia</label>
+                    <input class="form-check-input" type="radio" name="opção" id="op-3" value="opção 3"> 
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label" for="op-4">Montanhas</label>
+                    <input class="form-check-input" type="radio" name="opção" id="op-4" value="opção 4"> 
+                </div>
+            </section>
+
+            <section>
+                <p>- Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>  
+                <textarea class="form-control" placeholder="Escreva aqui" id="textarea" style="height: 100px"></textarea>
+            </section>
+                    
+            <section>
+                <p>- Qual a melhor data para realizar sua viagem?</p>
+                Data: <input type="date" name="data" id="input-data"> 
+            </section>
+            
+            <section>
+                <p>- Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+                <div class="form-check">
+                    <label class="form-check-label" for="termo1"> Concordo 1 </label>
+                    <input class="form-check-input" type="checkbox" name="termo1" id="termo1" value="concordo1"> 
+                </div>
+            </section>
+
+            <section>
+                <p>- Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+                <div class="form-check">
+                    <label class="form-check-label" for="termo2"> Concordo 2 </label>
+                    <input class="form-check-input" type="checkbox" name="termo2" id="termo2" value="concordo2">              
+                </div> 
+            </section> 
+
+            <section id="button">
+            <button type="button" class="btn btn-primary" >Enviar</button>
+            <button type="reset" class="btn btn-danger" >Apagar</button>
+            </section>
+
+        </form>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
