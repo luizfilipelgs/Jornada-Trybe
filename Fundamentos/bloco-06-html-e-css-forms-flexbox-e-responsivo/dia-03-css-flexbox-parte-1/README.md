@@ -1,4 +1,4 @@
-### Bibliotecas JavaScript e Frameworks CSS
+### CSS Flexbox - Parte 1
 
 - [x] Utilizar CSS Flexbox para criar layouts flexíveis;
 - [x] Utilizar CSS Flexbox para alterar o comportamento de containers.
