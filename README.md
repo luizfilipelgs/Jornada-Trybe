@@ -61,7 +61,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
@@ -86,7 +86,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 10-1: _'Hello, world!' no React!_
 - [ ] 10-2: _Componentes React_
 - [ ] 10-3: _[Projeto - Sistema Solar]()_
-
 
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
