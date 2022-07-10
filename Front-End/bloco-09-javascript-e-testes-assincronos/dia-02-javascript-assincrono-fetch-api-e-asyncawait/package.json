@@ -1,0 +1,15 @@
+{
+  "name": "dia-02-javascript-assincrono-fetch-api-e-asyncawait",
+  "version": "1.0.0",
+  "description": "- [x] Utilizar then() e catch(); - [x] Utilizar async/await em conjunto com o try/catch; - [x] Fazer integrações com APIs de terceiros.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
